@@ -1,0 +1,3 @@
+ollama|nohup ~/.local/bin/ollama serve|/home/mash/.local/bin/ollama
+conky|conky -d|/usr/bin/conky
+plank|plank &|/usr/bin/plank

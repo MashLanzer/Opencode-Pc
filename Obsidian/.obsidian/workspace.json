@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "1ed05c7a49c3b062",
+    "type": "split",
+    "children": [
+      {
+        "id": "0bb586fbc53274a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdf198d4a682a1af",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f5fa3d89084f84fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e2434e0d49a6845",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40a05274963b61c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "45a5676e1978b6b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "70cf511cd5587520",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "85ebabf44b03879c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a55ddc1aea7c79ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dec61cd99195b9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "7397e94d2ad36ac0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "90f6e0970813df3c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "afd92850b89771ff",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "fb33710c3083c7af",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "cdf198d4a682a1af",
+  "lastOpenFiles": [
+    "AI-Memory/Conocimiento/sedVfe9D8",
+    "AI-Memory/Conversaciones/sed90et5C",
+    "AI-Memory/Sistema/sed9l6Avu",
+    "AI-Memory/Sistema/sed6ZhPcQ",
+    "AI-Memory/Sistema/sedqu2FRf",
+    "AI-Memory/Sistema/sedKq6wiN",
+    "AI-Memory/sed2R5fhV",
+    "AI-Memory/Notas/sedR2LyE1",
+    "AI-Memory/Conocimiento/sedvXl9SS",
+    "AI-Memory/Proyectos/sed87V0u1",
+    "AI-Memory/Sistema/sedKMgpm2",
+    "AI-Memory/revision-diaria.md",
+    "AI-Memory/Conocimiento/guia-comandos.md",
+    "AI-Memory/Notas/nota_20260426_152718.md",
+    "AI-Memory/Notas/_index.md",
+    "AI-Memory/Notas/nota_20260426_152452.md",
+    "AI-Memory/Notas/nota_20260426_151530.md",
+    "AI-Memory/Notas/nota_20260426_151618.md",
+    "nombre-del-archivo.md",
+    "AI-Memory/Conocimiento/notas-generales.md",
+    "AI-Memory/Notas/nota_20260426_145440.md",
+    "AI-Memory/Notas/nota_20260426_145834.md",
+    "AI-Memory/Notas/nota_20260426_145254.md",
+    "AI-Memory/Sistema/nueva-nota.md",
+    "AI-Memory/Sistema/nota_20260426_145440.md",
+    "AI-Memory/Sistema/nota_20260426_145254.md",
+    "AI-Memory/indice-enlaces.md",
+    "AI-Memory/Proyectos/_indice-proyectos.md",
+    "AI-Memory/nota-rapida.md",
+    "AI-Memory/MEMORIA-PRINCIPAL.md",
+    "AI-Memory/indice-temas.md",
+    "AI-Memory/Proyectos/plantilla-meeting.md",
+    "AI-Memory/Proyectos/plantilla-bug-report.md",
+    "AI-Memory/Conocimiento/snippets-codigo.md",
+    "AI-Memory/tareas-pendientes.md",
+    "AI-Memory/Conocimiento/plantilla-general.md"
+  ]
+}

@@ -1,0 +1,50 @@
+/* AI Memory Assistant - Estilos */
+
+.ai-memory-container {
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.ai-memory-container h2 {
+  margin-bottom: 16px;
+  color: var(--text-normal);
+}
+
+.ai-memory-container .botones {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ai-memory-container .btn {
+  padding: 8px 16px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.ai-memory-container .btn:hover {
+  opacity: 0.9;
+}
+
+.ai-memory-container .status {
+  margin-top: 16px;
+  padding: 12px;
+  background: var(--background-secondary);
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+.ai-memory-container .input-buscar {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  background: var(--input-background);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-normal);
+}

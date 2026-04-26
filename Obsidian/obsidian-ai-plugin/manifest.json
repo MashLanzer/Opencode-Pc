@@ -1,0 +1,10 @@
+{
+  "id": "ai-memory-assistant",
+  "name": "AI Memory Assistant",
+  "version": "1.0.0",
+  "description": "Integración con sistema de memoria IA local",
+  "author": "IA Assistant",
+  "isDesktopOnly": false,
+  "supportedApiVersions": ["1.0.0"],
+  "hasDevDependencies": false
+}

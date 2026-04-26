@@ -1,0 +1,1 @@
+test-memoria|ls /home/mash/Opencode/Obsidian/AI-Memory|Verifica que memoria existe|done|0|1
