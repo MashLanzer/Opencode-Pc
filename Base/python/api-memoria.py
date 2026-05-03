@@ -3,11 +3,12 @@
 # Usage: python3 api-memoria.py [puerto]
 
 import http.server
-import socketserver
 import json
 import os
+import socketserver
+import subprocess
 from datetime import datetime
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse
 
 AI_ROOT = os.path.expanduser("/home/mash/Opencode/Obsidian/AI-Memory")
 PORT = int(os.environ.get("PORT", 5000))
@@ -33,12 +34,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.responder({'contenido': self.leer('Proyectos/_indice-proyectos.md')})
         elif path == '/api/salud':
             try:
-                import os
-                d = os.popen("df / | awk 'NR==2{print $5}'").read().strip()
-                r = os.popen("free | awk '/Mem:/{print int($3/$2*100)}'").read().strip()
+                d = subprocess.run(
+                    ["df", "/"], capture_output=True, text=True
+                ).stdout.splitlines()[1].split()[4].rstrip('%')
+                mem = subprocess.run(
+                    ["free"], capture_output=True, text=True
+                ).stdout.splitlines()[1].split()
+                r = str(int(int(mem[2]) / int(mem[1]) * 100))
                 self.responder({'disco': d, 'ram': r})
-            except:
-                self.responder({'error': 'no se pudo obtener'})
+            except Exception as e:
+                self.responder({'error': str(e)}, 500)
         else:
             self.responder({'error': 'ruta no encontrada'}, 404)
     

@@ -75,7 +75,8 @@ case "${1:-check}" in
         case "$DECISION" in
             alertar)
                 echo "[ALERTA] IA decide: ALERTAR"
-                notify-send -u critical "Alerta Sistema" "Metricas: $METRICAS" 2>/dev/null || echo "[ALERTA] $METRICAS"
+                /home/mash/Opencode/Base/scripts/hablar.sh "Atención, se ha detectado una alerta crítica en el sistema"
+                notify-send -u critical "Alerta Sistema" "Metricas: $METRICAS" 2>/dev/null || true
                 date +%s > "$ULTIMA_ALERTA_FILE"
                 echo "$(date): $METRICAS" >> "$ALERTAS_FILE"
                 ;;

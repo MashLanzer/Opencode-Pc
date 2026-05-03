@@ -62,8 +62,12 @@ case "${1:-status}" in
         echo "- Inicio: $INICIO | Fin: $FIN | Total: ${HORAS}h ${MINUTOS}m" >> "$HISTORIAL"
         
         rm "$SESSION_FILE"
-        
+
         echo "[OK] Sesión guardada: $PROYECTO ${HORAS}h ${MINUTOS}m"
+
+        # Diario automático
+        DURACION_STR="${HORAS}h ${MINUTOS}m"
+        /home/mash/Opencode/Base/scripts/ia-diario.sh "$PROYECTO" "$DURACION_STR" &
         ;;
         
     status)

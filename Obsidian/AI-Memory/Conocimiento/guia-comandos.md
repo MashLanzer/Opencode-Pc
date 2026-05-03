@@ -15,7 +15,6 @@
 ## Cuándo usar cada comando
 
 **`ia memory "..."`**
-- Cuando se te ocurre una idea para VEXA, D&D o Godot
 - Cuando encuentras un error y lo solucionas
 - Cuando aprendes un comando útil nuevo
 - La IA decide dónde guardarlo automáticamente
@@ -45,6 +44,5 @@ ia status  # Ver qué está caído
 
 La IA guarda todo en `/home/mash/Opencode/Obsidian/AI-Memory/`:
 - **Sistema/** → Errores, comandos, preferencias
-- **Proyectos/** → VEXA, D&D, Godot
 - **Conocimiento/** → Código, aprendizajes
 - **Conversaciones/** → Resúmenes de sesiones

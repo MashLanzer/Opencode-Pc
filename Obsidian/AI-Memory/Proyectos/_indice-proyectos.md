@@ -1,12 +1,12 @@
 # 📋 Índice de Proyectos
 
-> Actualizado: 2026-04-26 17:05
+> Actualizado: 2026-04-27 19:58
 
 ## Proyectos activos
 
 | Proyecto | Estado | Última actividad |
 |----------|--------|------------------|
-| VEXA (IA de voz) | 🟡 En desarrollo | - |
+| VEXA — Sistema IA de Voz | 🟡 En desarrollo | 2026-04-26 |
 | D&D Ecos del Apocalipsis | 🟡 En desarrollo | - |
 | Between Moments (Godot 4) | 🟠 Pausado | - |
 | Linux Mint personalización | 🟢 Completado | 2026-04-26 |

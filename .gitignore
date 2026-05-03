@@ -1,0 +1,8 @@
+Base/venv/
+Base/logs/
+Base/config/secrets
+*.log
+*.pyc
+__pycache__/
+/input.txt
+/test_mic.txt

@@ -1,6 +1,6 @@
 # 💾 Discos y Particiones
 
-> Actualizado: 2026-04-26 17:05
+> Actualizado: 2026-04-27 19:58
 
 ## Estructura de discos
 - (pendiente de detección — ejecutar `lsblk` para obtener datos reales)

@@ -4,7 +4,6 @@
 
 ## Tareas por proyecto
 
-### VEXA (IA de voz)
 - [ ] (pendiente)
 
 ### D&D Ecos del Apocalipsis

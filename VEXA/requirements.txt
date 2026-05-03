@@ -1,0 +1,10 @@
+# VEXA dependencies
+# Instalar con: pip3 install -r requirements.txt
+websockets>=15.0      # WebSocket server (ya disponible globalmente)
+
+# Los siguientes ya están en Base/venv:
+# whisper               — STT
+# edge-tts              — TTS neural
+
+# Opcionales (mejoran el sistema):
+# aiohttp               — alternativa async para HTTP+WS en un solo servidor

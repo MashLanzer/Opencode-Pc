@@ -1,7 +1,7 @@
 # 🧠 Memoria Principal — IA Assistant
 
 > Fecha de creación: 2026-04-26
-> Última sesión: 2026-04-26 17:05
+> Última sesión: 2026-04-27 19:58
 > Estado del sistema: Activo — Autonomo
 
 ## ¿Qué es todo esto? (Guía para Mash)
@@ -14,7 +14,6 @@ Este es tu **segundo cerebro digital**. La IA guarda todo lo importante aquí: e
 
 ```bash
 # Guardar una idea rápida
-ia memory "Se me ocurrió que VEXA debería tener modo offline"
 
 # Buscar algo que dijiste antes
 ia rag buscar "configuración kitty"
@@ -39,7 +38,6 @@ ia status
 | Carpeta | Qué guarda aquí | Cuándo la uso |
 |---------|----------------|---------------|
 | **Sistema/** | Errores solucionados, comandos útiles, preferencias tuyas | Cuando algo falla o encuentro un comando bueno |
-| **Proyectos/** | VEXA, D&D, Godot, Between Moments | Ideas o avances de proyectos |
 | **Conversaciones/** | Resúmenes de lo que hablamos | Para recordar contexto de sesiones pasadas |
 | **Conocimiento/** | Snippets de código, notas generales | Código reutilizable o aprendizajes |
 | **nota-rapida.md** | Ideas sueltas sin categorizar | Cualquier pensamiento rápido |
@@ -127,6 +125,11 @@ Todo el código de la IA está organizado en:
 - [x] Comando `ia` disponible globalmente
 - [x] Inicio automático configurado (@reboot crontab)
 - [x] Ollama funcionando con llama3.2:1b
+- [x] **VEXA** — Sistema de voz animado operativo (`./VEXA/run.sh`)
+  - Micrófono: hw:3,0 (USB MIC-E01) — detección automática USB corregida
+  - UI: http://localhost:8765
+  - Wake word: "oye VEXA" / "hey VEXA"
+  - RAG integrado con memoria Obsidian
 
 ---
 

@@ -18,7 +18,6 @@
 
 ## Proyectos activos
 
-### VEXA
 - Estado: 
 - Avance hoy: 
 - Bloqueos: 
