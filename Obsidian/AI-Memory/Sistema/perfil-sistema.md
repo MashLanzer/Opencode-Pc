@@ -1,6 +1,6 @@
 # 🖥️ Perfil del Sistema
 
-> Actualizado: 2026-08-02 00:43
+> Actualizado: 2026-09-02 18:44
 
 ## Hardware
 - OS: Linux Mint 22.3 Cinnamon (por defecto, ajustar tras detección real)

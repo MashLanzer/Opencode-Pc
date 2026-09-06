@@ -950,3 +950,15 @@
 2026-08-02 00:54:24 - [EJECUTANDO] Respaldar memoria
 /home/mash/Opencode/Base/scripts/task-runner.sh: línea 55: /home/mash/backup-memoria-ia.sh: No existe el archivo o el directorio
 2026-08-02 00:54:24 - [ERROR] Respaldar memoria falló
+2026-09-02 18:33:01 - [INFO] Ejecutando tareas...
+2026-09-02 18:33:01 - [EJECUTANDO] Respaldar memoria
+/home/mash/Opencode/Base/scripts/task-runner.sh: línea 55: /home/mash/backup-memoria-ia.sh: No existe el archivo o el directorio
+2026-09-02 18:33:01 - [ERROR] Respaldar memoria falló
+2026-09-02 18:44:12 - [INFO] Ejecutando tareas...
+2026-09-02 18:44:12 - [EJECUTANDO] Respaldar memoria
+/home/mash/Opencode/Base/scripts/task-runner.sh: línea 55: /home/mash/backup-memoria-ia.sh: No existe el archivo o el directorio
+2026-09-02 18:44:12 - [ERROR] Respaldar memoria falló
+2026-09-02 18:55:01 - [INFO] Ejecutando tareas...
+2026-09-02 18:55:01 - [EJECUTANDO] Respaldar memoria
+/home/mash/Opencode/Base/scripts/task-runner.sh: línea 55: /home/mash/backup-memoria-ia.sh: No existe el archivo o el directorio
+2026-09-02 18:55:01 - [ERROR] Respaldar memoria falló

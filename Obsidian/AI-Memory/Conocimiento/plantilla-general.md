@@ -1,6 +1,6 @@
 # 📚 Plantilla General de Conocimiento
 
-> Actualizado: 2026-08-02 00:43
+> Actualizado: 2026-09-02 18:44
 
 ## Propósito
 Esta nota sirve como plantilla base para acumular conocimiento general que no pertenece a otras categorías específicas.
